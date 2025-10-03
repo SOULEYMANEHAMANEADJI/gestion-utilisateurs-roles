@@ -1,5 +1,12 @@
 # 🚀 Gestion des Utilisateurs et des Rôles
 
+[![CI/CD Pipeline](https://github.com/SOULEYMANEHAMANEADJI/gestion-utilisateurs-roles/actions/workflows/ci.yml/badge.svg)](https://github.com/SOULEYMANEHAMANEADJI/gestion-utilisateurs-roles/actions/workflows/ci.yml)
+[![Security Audit](https://github.com/SOULEYMANEHAMANEADJI/gestion-utilisateurs-roles/actions/workflows/security.yml/badge.svg)](https://github.com/SOULEYMANEHAMANEADJI/gestion-utilisateurs-roles/actions/workflows/security.yml)
+[![Deploy to Production](https://github.com/SOULEYMANEHAMANEADJI/gestion-utilisateurs-roles/actions/workflows/deploy.yml/badge.svg)](https://github.com/SOULEYMANEHAMANEADJI/gestion-utilisateurs-roles/actions/workflows/deploy.yml)
+[![PHP Version](https://img.shields.io/badge/PHP-8.2%2B-blue.svg)](https://php.net)
+[![Laravel Version](https://img.shields.io/badge/Laravel-11.x-red.svg)](https://laravel.com)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 Une application Laravel moderne et professionnelle pour la gestion des utilisateurs avec un système de rôles hiérarchiques.
 
 ## ✨ Fonctionnalités
