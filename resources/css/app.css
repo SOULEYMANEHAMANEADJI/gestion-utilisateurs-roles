@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn {
+        @apply inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 transition-colors duration-200;
+    }
+    
+    .btn-primary {
+        @apply btn bg-indigo-600 text-white hover:bg-indigo-700 focus:ring-indigo-500;
+    }
+    
+    .btn-secondary {
+        @apply btn bg-gray-600 text-white hover:bg-gray-700 focus:ring-gray-500;
+    }
+    
+    .btn-danger {
+        @apply btn bg-red-600 text-white hover:bg-red-700 focus:ring-red-500;
+    }
+    
+    .btn-success {
+        @apply btn bg-green-600 text-white hover:bg-green-700 focus:ring-green-500;
+    }
+    
+    .btn-outline {
+        @apply btn border-gray-300 text-gray-700 bg-white hover:bg-gray-50 focus:ring-indigo-500;
+    }
+    
+    .form-input {
+        @apply block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm;
+    }
+    
+    .form-select {
+        @apply block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm;
+    }
+    
+    .form-checkbox {
+        @apply rounded border-gray-300 text-indigo-600 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50;
+    }
+    
+    .card {
+        @apply bg-white overflow-hidden shadow rounded-lg;
+    }
+    
+    .card-header {
+        @apply px-4 py-5 sm:px-6 border-b border-gray-200;
+    }
+    
+    .card-body {
+        @apply px-4 py-5 sm:p-6;
+    }
+    
+    .badge {
+        @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+    }
+    
+    .badge-primary {
+        @apply badge bg-indigo-100 text-indigo-800;
+    }
+    
+    .badge-success {
+        @apply badge bg-green-100 text-green-800;
+    }
+    
+    .badge-warning {
+        @apply badge bg-yellow-100 text-yellow-800;
+    }
+    
+    .badge-danger {
+        @apply badge bg-red-100 text-red-800;
+    }
+    
+    .badge-secondary {
+        @apply badge bg-gray-100 text-gray-800;
+    }
+}
