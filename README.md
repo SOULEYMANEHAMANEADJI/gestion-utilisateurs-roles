@@ -170,7 +170,6 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
 ## 👨‍💻 Auteur
 
-**Votre Nom**
 - GitHub: [@SOULEYMANEHAMANEADJI](https://github.com/SOULEYMANEHAMANEADJI/gestion-utilisateurs-roles.git)
 - Email: shamaneadji@gmail.com
 
